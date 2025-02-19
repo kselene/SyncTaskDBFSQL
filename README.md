@@ -6,7 +6,13 @@ This is a Powershell task to maintain the syncronization between DBF tables and 
 ## Usage and Installation
 
 Requires dotnet Core 2.1 (available on Windows, Linux, Mac)
+Compatible with Visual Studio 2022
 
+To verify the correct installation try the following:
+```
+dotnet --info
+dotnet add package CommandLineParser --version 2.9.1
+```
 
 ## References
 [https://www.sharepointdiary.com/2013/06/how-to-run-sql-server-query-from-powershell.html#ixzz8wrOCO88B](https://www.sharepointdiary.com/2013/06/how-to-run-sql-server-query-from-powershell.html#ixzz8wrOCO88B)
